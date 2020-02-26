@@ -20,7 +20,7 @@ export default class Board {
       }
 
       this.missed += 1;
-      if (this.missed === 5) {
+      if (this.missed === 6) {
         clearInterval(interval);
         alert('Game over');
       }
